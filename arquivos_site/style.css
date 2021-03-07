@@ -5,15 +5,10 @@
 }
 
 header {
-    border: 1px solid red;
     font-size: 1.2em;
-    color: black;
 }
 
-
-
 #banner {
-    border: 1px solid blue;
     color: #ffff;
     height: 50vh;
 }
@@ -28,6 +23,33 @@ header {
 }
 
 .sobre-mim {
-    border: 1px solid green;
     color: white;
+}
+
+#conhecimentos1 h4 {
+    margin-top: 0.8em;
+}
+
+.trabalhos a {
+    display: block;
+    color: white;
+    font-size: 1.4em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+#formulario textarea {
+    resize: none;
+}
+
+footer {
+    padding: 1.2em;
+}
+
+#icon-linkedin {
+    margin-right: 1.2em;
+}
+
+#icon-github {
+    margin-right: 1.2em;
 }
