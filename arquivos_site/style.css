@@ -22,12 +22,28 @@ header {
     width: 70%;
 }
 
+.sobre ul {
+    list-style: none;
+}
+
+.sobre ul li {
+
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
 .sobre-mim {
     color: white;
 }
 
-#conhecimentos1 h4 {
-    margin-top: 0.8em;
+.conhecimentos {
+    position: relative;
+    padding-top: 50px;
+}
+
+.conhecimentos2 {
+    position: relative;
+    padding-top: 50px;
 }
 
 .trabalhos a {
@@ -52,4 +68,92 @@ footer {
 
 #icon-github {
     margin-right: 1.2em;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    #banner {
+        width: 100%;
+        height: 40vh;
+        font-size: 1.0em;
+    }
+
+    #idea-icon {
+        display: none;
+    }
+
+    #programmer-icon {
+        width: 80%;
+        margin-left: 13%;
+    }
+
+    h4 {
+        margin-top: 5%;
+        margin-left: 30%;
+    }
+
+    #icon-html-css {
+        margin-left: 38%;
+    }
+
+    #dr {
+        margin-left: 20%;
+    }
+
+    #titulo-trabalhos {
+        margin-left: 30%;
+    }
+
+    #frontend-icon {
+        width: 40%;  
+        margin-top: 10%;
+        margin-left: 30%;
+    }
+
+    #responsivedesign-icon {
+        width: 40%;
+        margin-top: 10%;
+        margin-left: 30%;
+    }
+
+    #html-icon {
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    #css-icon {
+        width: 30%;
+        margin-top: 10%;
+        margin-left: 35%;
+    }
+
+    footer {
+        font-size: 0.7em;
+    }
+
+    .social-media {
+        justify-content: start;
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    #programmer-icon {
+        width: 100%;
+    }
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    #idea-icon {
+        width: 1%;
+        height: 70%;
+    }
+
 }
